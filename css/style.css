@@ -1,0 +1,123 @@
+/* Set background color to lightblue  */
+
+body {
+    background-color: lightblue;
+  }
+  
+  
+  /* Styling for the white box */
+  
+  #box {
+  /*   height: auto; */
+    height: 250px;
+    width: 60%;
+    background-color: white;
+    margin: auto;
+    margin-top: 80px;
+  }
+  
+  
+  /* Styling for the quotation icon */
+  
+  #quote {
+    text-align: center;
+    padding-top: 40px;
+   
+  }
+  
+  .big-icon {
+    color: lightblue;
+    font-size: 30px;
+  
+  }
+  
+  /* A class given to the quotation icon when the new quote button is clicked */
+  
+  .blink_me {
+    animation: blinker 3s;
+  }
+  
+  @keyframes blinker {
+    0% {
+      opacity: 0.1;
+    }
+    50% {
+      opacity: 0.6;
+    }
+    
+    100% {
+      opacity: 0.9;
+    }
+  }
+  
+  
+  /* Styling for the social media icons */
+  
+  #social {
+    float: left;
+    padding-left: 50px;
+    padding-top: 40px;
+  }
+  
+  #social i {
+    color: lightblue;
+    font-size: 40px;
+    margin-left: 3px;
+  }
+  
+  #social i:hover {
+    opacity: 0.7;
+  }
+  
+  
+  /* Styling for the new quote button */
+  
+  #new-quote-container {
+    float: right;
+    padding-right: 50px;
+    padding-top: 47px;
+  }
+  
+  #new-quote-container button {
+    padding: 8px 20px 8px 20px; ;
+    color: white;
+    background-color: lightblue;
+    border-radius: 6px;
+  }
+  
+  #new-quote-container button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+  }
+  
+  #new-quote-container button:focus {
+    outline: none;
+  }
+  
+  /* Styling for the author element */
+  
+  #author {
+    text-align: center;
+    margin-top: 150px;
+  }
+  
+  #author a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+  
+  /* Styling for the new quote text */
+  
+  #quote-container {
+    text-align: center;
+    padding-top: 10px;
+    
+  }
+  
+  #quote-para {
+    width: 80%;
+    margin: auto;
+    height: 60px;
+  }
